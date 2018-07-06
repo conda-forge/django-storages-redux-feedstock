@@ -18,14 +18,15 @@ Trove classifiers in setup.py to be sure.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-storages-redux-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-storages-redux-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-storages-redux-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-storages-redux-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-storages-redux-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-storages-redux-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-storages-redux-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-storages-redux-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-storages-redux/badges/version.svg)](https://anaconda.org/conda-forge/django-storages-redux)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-storages-redux/badges/downloads.svg)](https://anaconda.org/conda-forge/django-storages-redux)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-django--storages--redux-green.svg)](https://anaconda.org/conda-forge/django-storages-redux) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/django-storages-redux.svg)](https://anaconda.org/conda-forge/django-storages-redux) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/django-storages-redux.svg)](https://anaconda.org/conda-forge/django-storages-redux) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/django-storages-redux.svg)](https://anaconda.org/conda-forge/django-storages-redux) |
 
 Installing django-storages-redux
 ================================
@@ -70,6 +71,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
